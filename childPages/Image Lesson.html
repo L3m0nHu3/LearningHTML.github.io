@@ -5,12 +5,12 @@
     <!-- Used by keyboard -->
     <meta charset="utf-8">
 
-    <title>Child Template Webpage</title>
+    <title>Image lessonPage</title>
 
     <!-- Used by Browser or Google Search-->
     <meta name="author" content="Max Ganley">
     <meta name="description" content="Learning HTML by building a simple Website">
-    <meta name="keywords" content="boilerplate, starter code, HTML, learning">
+    <meta name="keywords" content="boilerplate, starter code, HTML, learning, images">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
 
@@ -29,27 +29,43 @@
 
   </head>
   <body>
-    <header><h1>This is the childTemplate page</h1></header>
+    <header><h1>Image Lesson</h1></header>
     <nav><h1>Navigation</h1></nav>
-    <aside><p>This is the aside space.</p></aside>
+    <aside>Students are to play with h-tags, p-tags, a-tag, etc. In the viewport with inline style settings</aside>
     <section>
-      <h3>Section 1</h3>
-      <article>
-        <p>This is article 1 in section 1.</p>
-      </article>
-      <article>
-        <p>This is article 2 in section 1.</p>
-      </article>
+      <header>Steps in building an image</header>
+      <ul>
+        <li> Pick an image (careful of the file extension in the URL)
+        <li> Record the URL, cite it, comment on the date accessed, and recod the original, dimensions
+            <li>Note: opening in a new tab will eventually provide a http or https URL with a file extension
+        <li> Use blockquote and comment as appropirate
+        <li> Use img-tag, with attributes src, alt, title, and style with width-height
+        <li> Compare the same image with two sizes of the veiwport (25% & 100%)
+      </ul>
     </section>
+
     <section>
-      <h3>Section 2</h3>
-      <article>
-        <p>This is article 1 in section 2.</p>
-      </article>
-      <article>
-        <p>This is article 2 in section 2.</p>
-      </article>
+      <header>Example image, 25% of the screen</header> 
+      <blockquote cite="https://cdn.wallpapersafari.com/71/62/rqVlcN.jpg">
+        <!-- Date accessed 20220708-->
+         <!-- Width: 1024, Height: 768-->
+      </blockquote>
+      <img scrc="../Users/danielhamilton/Documents/GitHub/LearningHTML.github.io/Images" alt="../https://cdn.wallpapersafari.com/71/62/rqVlcN.jpg" title="Wow, Mr. Mercer" style="width:25%;height:auto;"
+
+      <article><p>This is a paragraph tag inside a section-article</p></article>
     </section>
+
+    <section>
+      <header>Example image, 100% of the screen</header> 
+      <blockquote cite="https://cdn.wallpapersafari.com/71/62/rqVlcN.jpg">
+        <!-- Date accessed 20220708-->
+         <!-- Width: 1024, Height: 768-->
+      </blockquote>
+      <img scrc="" alt="" title="" style=""
+
+      <article><p>This is a paragraph tag inside a section-article</p></article>
+    </section>
+
   </body>
 
   <footer>
@@ -62,7 +78,7 @@
          - Alexander Hamilton, 2016</a>
       </em>
     </p>
-    <p>&copy Max Ganley, powered by L3m0nhu3 in GitHub</p>
+    <p><u>&copy Max Ganley, powered by L3m0nhu3 in GitHub</u></p>
 
   </footer>
 
